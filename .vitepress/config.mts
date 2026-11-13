@@ -30,9 +30,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/BritishGeologicalSurvey' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/geo3d-viewer' }],
     footer: {
       copyright: `© UKRI (British Geological Survey) and the Polish Geological Institute ${currentYear}.`,
     },
