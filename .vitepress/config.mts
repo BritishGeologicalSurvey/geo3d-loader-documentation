@@ -5,6 +5,7 @@ const currentYear = new Date().getFullYear();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/geo3d-loader-documentation/',
   title: 'Geo3D Loader',
   description: 'Documentation to support the Geo3D software',
   appearance: false,
