@@ -29,12 +29,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
-      - uses: pnpm/action-setup@v6
+      - uses: pnpm/action-setup@v4
         with:
-          version: 12 # Remove this `with` block if you have "packageManager" defined in package.json
+          version: 9 # Remove this `with` block if you have "packageManager" defined in package.json
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
