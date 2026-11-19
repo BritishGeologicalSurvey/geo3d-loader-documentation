@@ -11,7 +11,7 @@ This chapter is a step-by-step guide to creating the required files for viewing 
 
 This first step will create a legend file that provides information (name, colour, description) for each of the geological units to be displayed in the final model. Often these types of legends are created by most modelling software so this information may already exist alongside your 3D model.
 
-The legend is created using the “GVS Config” tool under the main menu on the Geo3D Project Configurator form here: http://geo3d-project-config-52d7a1.glpages.ad.nerc.ac.uk
+The legend is created using the “GVS Config” tool under the main menu on the Geo3D Project Configurator form.
 
 ![Converter 1](./media/Converter_1.png)
 
@@ -97,7 +97,7 @@ The assets folder plus the project.json can now be uploaded to the Geo3D Viewer 
 This document discusses the use of a webform to enhance the user’s experience of viewing the 3D geological models inside the Geo3D Viewer software. The features listed here all affect how the 3D model is visualised in the viewer so all should be assessed and reviewed before publishing. Some of the features are listed as “default” and so they don’t necessarily need altering if you are using a standard display in the model viewer. These are marked with an underlined title. The .json file can be adjusted at any point during this process however, so it can be done in iterative stages.
 
 ### Enhancing the project.json file
-Use a browser and navigate to the Geo3D Project Configurator webform http://geo3d-project-config-52d7a1.glpages.ad.nerc.ac.uk
+Use a browser and navigate to the Geo3D Project Configurator webform.
 
 Click on “Upload Project Config”
 
