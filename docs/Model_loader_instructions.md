@@ -79,7 +79,7 @@ There is also a "**single**" mode, where specific named files can be targeted to
 
 ### Using the asc-to-g3d tool
 
-Navigate to this location in a web browser https://kwvmxgit.ad.nerc.ac.uk/geo3d-viewer/asc-to-g3d and double-click the “executables” folder. Download the latest version of the “asc-to-g3d….” file (select the file and then click “Download”).
+Download the latest version of the “asc-to-g3d….” file (select the file and then click “Download”).
 
 Extract and save this to your computer.
 
@@ -89,7 +89,7 @@ Click enter and this will run the grid conversion to .g3d format and will also c
 
 Once the grids are converted to .g3d format create a new folder called “assets” and move all the new .g3d grids into it. Move the .json file to sit alongside the assets folder just created and rename to “project.json”.
 
-The assets folder plus the project.json can now be uploaded to the Geo3D Viewer location (see http://geo3d-loader-documentation-830d89.glpages.ad.nerc.ac.uk/docs/serving-data.html for more details for hosting data) and viewed within the software. Note that the project.json creates only a basic view of the model but should produce the correct colours for each geological unit, put the units in the correct order and group them as specified.
+The assets folder plus the project.json can now be uploaded to the Geo3D Viewer location and viewed within the software. Note that the project.json creates only a basic view of the model but should produce the correct colours for each geological unit, put the units in the correct order and group them as specified.
 
 ![Model](./media/Model_Screenshot.png)
 
